@@ -1,0 +1,19 @@
+Node
+node_modules/
+build/
+
+.NET
+bin/
+obj/
+
+Logs
+*.log
+
+Env / secrets
+.env
+appsettings.Development.json
+.vs
+
+OS
+.DS_Store
+Thumbs.db
