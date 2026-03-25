@@ -14,6 +14,8 @@ Autentikacija: JWT + Refresh Token
 
 API: OpenWeather
 
+
+
 🔐 Funkcionalnosti
 
 Registracija i login korisnika
@@ -42,6 +44,8 @@ Distribucija vremenskih uvjeta
 Graf + grid prikaz istih podataka
 
 
+
+
 ⚙️ Pokretanje projekta
 
 1️⃣ Backend
@@ -59,6 +63,8 @@ Backend radi na:
 
 https://localhost:7071/
 
+
+
 2️⃣ Frontend
 
 cd weather-frontend
@@ -72,9 +78,11 @@ Frontend radi na:
 http://localhost:3000/
 
 
+
 🔑 Konfiguracija
 
 Napraviti appsettings.Development.json:
+
 {
   "ConnectionStrings": {
     "DefaultConnection": "Host=localhost;Port=5432;Database=weatherdb;Username=postgres;Password=yourpassword"
@@ -93,6 +101,10 @@ Napraviti appsettings.Development.json:
 }
 
 
+
+
 Napomena!
+
 appsettings.Development.json nije uključen u repo zbog sigurnosti
+
 Potrebno je dodati vlastiti API key i connection string
