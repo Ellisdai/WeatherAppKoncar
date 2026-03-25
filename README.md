@@ -5,9 +5,13 @@ Full-stack web aplikacija za prikaz vremenske prognoze s autentikacijom korisnik
 🚀 Tehnologije
 
 Frontend: React (TypeScript)
+
 Backend: .NET 8 Web API
+
 Baza: PostgreSQL
+
 Autentikacija: JWT + Refresh Token
+
 API: OpenWeather
 
 🔐 Funkcionalnosti
